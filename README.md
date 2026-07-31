@@ -9,7 +9,7 @@ Este repositorio contiene pruebas automatizadas de interfaz web desarrolladas co
 * **Node.js**
 * **Playwright**
 * **TypeScript**
-Patrón de Diseño POM
+* Patrón de Diseño POM
 
 ---
 
