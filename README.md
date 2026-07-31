@@ -17,21 +17,21 @@ Patrón de Diseño POM
 
 1. CLONAR REPOSITORIO:
    ```
-   git clone [https://github.com/netfanely2/ProyectoRetoFront.git](https://github.com/netfanely2/ProyectoRetoFront.git)
+   git clone https://github.com/netfanely2/ProyectoRetoFront.git
    ```
    Node.Js (Version 18 o superior)
    Git
 
-2. INSTALACION Y CONFIGURACION
+2. INSTALACION Y CONFIGURACION:
    ```
    npm install
    npx playwright install
    ```
-3. EJECUTAR PRUEBAS
- ```
+3. EJECUTAR PRUEBAS:
+   ```
    npm test
    ```
-4. VISUALIZAR REPORTE
- ```
+4. VISUALIZAR REPORTE:
+   ```
    Start-Process reports/cucumber-report.html
    ```
