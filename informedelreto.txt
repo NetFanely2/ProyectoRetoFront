@@ -1,0 +1,28 @@
+INFORME DEL RETO
+======= === ====
+
+QA : FANNY PASTOR
+APLICACIÓN: SAUCE DEMO
+FECHA: 31/07/2006
+
+1. Estrategia de Automatización
+- Uso de BDD (Cucumber y Gherkin) en español para definir escenarios comprensibles para el team developer y de negocio.
+
+Pruebas E2E para inicio de sesión exitoso (standard_user), gestión de errores por usuario bloqueado
+- (locked_out_user) y flujo completo de compra (agregar al carrito, formulario y confirmación de orden).
+
+2. Patrones de Diseño y Arquitectura
+- Page Object Model (POM): Encapsulamiento de selectores CSS y acciones en clases dedicadas 
+(LoginPage, ProductsPage, CheckoutPage), facilitando el mantenimiento si la UI cambia.
+
+- Aislamiento de Pruebas (Hooks): Gestión independiente de navegadores antes (@Before) y 
+después (@After) de cada escenario, con captura automática de evidencia (screenshots) en caso de fallos.
+
+3. Herramientas Utilizadas
+- Playwright + TypeScript: Interacción rápida con el navegador y tipado seguro.
+
+- tsx + cross-env: Ejecución nativa y ágil de TypeScript compatible con cualquier 
+sistema operativo (Windows/Mac/Linux).
+
+- Reportes HTML: Generación automática de reportes visuales con estado de ejecución y 
+evidencias adjuntas.
