@@ -3,7 +3,6 @@ import { Page, expect } from '@playwright/test';
 export class LoginPage {
   constructor(private page: Page) {}
 
-  // Localizadores
   private usernameInput = '#user-name';
   private passwordInput = '#password';
   private loginButton = '#login-button';
