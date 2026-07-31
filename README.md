@@ -1,10 +1,10 @@
-# 🎭 Playwright Automation
+## Playwright Automation
 
 Este repositorio contiene pruebas automatizadas de interfaz web desarrolladas con **Playwright** e **TypeScript**, enfocadas en el flujo de registro y generación de ID en la plataforma saucedemo.
 
 ---
 
-## 🛠️ Tecnologías Utilizadas
+## Tecnologías Utilizadas
 
 * **Node.js**
 * **Playwright**
@@ -13,11 +13,11 @@ Patrón de Diseño POM
 
 ---
 
-## 🚀 Prerrequisitos e Instalación
+## Prerrequisitos e Instalación
 
-1. Clonar el repositorio:
+1. CLONAR REPOSITORIO:
    ```
-   git clone [https://github.com/TU-USUARIO/TU-REPOSITORIO.git](https://github.com/TU-USUARIO/TU-REPOSITORIO.git)
+   git clone [https://github.com/netfanely2/ProyectoRetoFront.git](https://github.com/netfanely2/ProyectoRetoFront.git)
    ```
    Node.Js (Version 18 o superior)
    Git
